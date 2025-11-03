@@ -6,7 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		51520E0A2EB513EC0007A971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51688CB02E8188B600BB4A2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51688CB72E8188B600BB4A2A;
+			remoteInfo = Projeto_Combine;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		51520E042EB513EC0007A971 /* Projeto_CombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Projeto_CombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51688CB82E8188B600BB4A2A /* Projeto_Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projeto_Combine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -31,6 +42,11 @@
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		51520E052EB513EC0007A971 /* Projeto_CombineUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Projeto_CombineUITests;
+			sourceTree = "<group>";
+		};
 		51688CBA2E8188B600BB4A2A /* Projeto_Combine */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -43,6 +59,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		51520E012EB513EC0007A971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51688CB52E8188B600BB4A2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				51688CBA2E8188B600BB4A2A /* Projeto_Combine */,
+				51520E052EB513EC0007A971 /* Projeto_CombineUITests */,
 				51688CB92E8188B600BB4A2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				51688CB82E8188B600BB4A2A /* Projeto_Combine.app */,
+				51520E042EB513EC0007A971 /* Projeto_CombineUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +97,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		51520E032EB513EC0007A971 /* Projeto_CombineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51520E0C2EB513EC0007A971 /* Build configuration list for PBXNativeTarget "Projeto_CombineUITests" */;
+			buildPhases = (
+				51520E002EB513EC0007A971 /* Sources */,
+				51520E012EB513EC0007A971 /* Frameworks */,
+				51520E022EB513EC0007A971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51520E0B2EB513EC0007A971 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				51520E052EB513EC0007A971 /* Projeto_CombineUITests */,
+			);
+			name = Projeto_CombineUITests;
+			packageProductDependencies = (
+			);
+			productName = Projeto_CombineUITests;
+			productReference = 51520E042EB513EC0007A971 /* Projeto_CombineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		51688CB72E8188B600BB4A2A /* Projeto_Combine */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51688CC52E8188B800BB4A2A /* Build configuration list for PBXNativeTarget "Projeto_Combine" */;
@@ -104,6 +152,10 @@
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
+					51520E032EB513EC0007A971 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 51688CB72E8188B600BB4A2A;
+					};
 					51688CB72E8188B600BB4A2A = {
 						CreatedOnToolsVersion = 26.0;
 					};
@@ -124,11 +176,19 @@
 			projectRoot = "";
 			targets = (
 				51688CB72E8188B600BB4A2A /* Projeto_Combine */,
+				51520E032EB513EC0007A971 /* Projeto_CombineUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		51520E022EB513EC0007A971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51688CB62E8188B600BB4A2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +199,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		51520E002EB513EC0007A971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51688CB42E8188B600BB4A2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,7 +215,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		51520E0B2EB513EC0007A971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51688CB72E8188B600BB4A2A /* Projeto_Combine */;
+			targetProxy = 51520E0A2EB513EC0007A971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		51520E0D2EB513EC0007A971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMNB9J4T55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mariane.Projeto-CombineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Projeto_Combine;
+			};
+			name = Debug;
+		};
+		51520E0E2EB513EC0007A971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMNB9J4T55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mariane.Projeto-CombineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Projeto_Combine;
+			};
+			name = Release;
+		};
 		51688CC32E8188B800BB4A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -345,6 +460,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		51520E0C2EB513EC0007A971 /* Build configuration list for PBXNativeTarget "Projeto_CombineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51520E0D2EB513EC0007A971 /* Debug */,
+				51520E0E2EB513EC0007A971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		51688CB32E8188B600BB4A2A /* Build configuration list for PBXProject "Projeto_Combine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
